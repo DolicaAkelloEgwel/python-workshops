@@ -4,17 +4,20 @@ Course notes:
 
 ---
 # Intro
+
 What's covered:
 + Variables
-+ Basic syntax
-+ Control structures
++ Data types
++ Operations
++ Control structures - loops, if statements
+
 What's not covered:
++ Installation
 + Testing
 + Version Control
 + Code Hygiene
-+ Installation?
 
-I'm going to assume that you're not totally commited to using Python in your projects just yet. So this won't require installing anything.
+<!-- I understand that you may not be fully committed to using Python in your projects at the moment, and that's perfectly fine. The good news is that you don't need to install anything to get started with Python. If you *do* go ahead with using Python, I can help you with getting set up and moving on to the more advanced things you may want to do with it. -->
 
 ---
 # What is Python?
@@ -81,6 +84,11 @@ print(message)
 You can then use the variable in your code by referencing its name. Variables are useful because they allow you to reuse and update values without having to repeat the actual data.
 
 Variables can hold different types of data, including integers (whole numbers), floating-point numbers (numbers with decimals), strings (text), booleans (True or False), and more. Python is a dynamically typed language, meaning you don't need to explicitly declare the type of a variable. Python will automatically determine the type based on the assigned value.
+
+---
+# Data Types
+
+
 
 ---
 # Operations
@@ -169,7 +177,7 @@ It's important to pay attention to the indentation in Python because it defines 
 ---
 # Errors (Advanced)
 
-When programming in Python, encountering errors is a normal part of the learning process. Understanding these errors and being able to interpret their output is crucial for debugging and improving your code. Here's some information to help you make sense of Python errors:
+When programming in Python, encountering errors is a normal part of the learning process. Understanding these errors and being able to interpret their output is crucial for debugging and improving your code.
 
 <!-- Error Types: Python errors can fall into different categories, such as SyntaxErrors, which occur when you violate the rules of the Python syntax, and Exceptions, which happen during runtime when an unexpected situation arises.
 
@@ -188,7 +196,7 @@ Google and Stack Overflow: When faced with an error, search engines like Google 
 Remember, learning to interpret Python errors is a skill that develops over time. Embrace errors as learning opportunities and use them to understand your code better. Read the error messages carefully, examine the traceback, and consider the context of your code. With practice, you'll become more adept at identifying and resolving errors, making your coding journey smoother.
 
 ---
-## Investigating an Error (Advanced)
+# Investigating an Error (Advanced)
 
 <!-- Explain None? -->
 <!-- Explain continue/break? -->
