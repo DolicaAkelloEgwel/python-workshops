@@ -104,19 +104,19 @@ It's important to pay attention to the indentation in Python because it defines 
 
 When programming in Python, encountering errors is a normal part of the learning process. Understanding these errors and being able to interpret their output is crucial for debugging and improving your code. Here's some information to help you make sense of Python errors:
 
-    Error Types: Python errors can fall into different categories, such as SyntaxErrors, which occur when you violate the rules of the Python syntax, and Exceptions, which happen during runtime when an unexpected situation arises.
+Error Types: Python errors can fall into different categories, such as SyntaxErrors, which occur when you violate the rules of the Python syntax, and Exceptions, which happen during runtime when an unexpected situation arises.
 
-    Error Messages: When an error occurs, Python provides an error message that gives you information about what went wrong. It typically includes the error type, a brief description of the issue, and a traceback, which shows the sequence of function calls leading to the error.
+Error Messages: When an error occurs, Python provides an error message that gives you information about what went wrong. It typically includes the error type, a brief description of the issue, and a traceback, which shows the sequence of function calls leading to the error.
 
-    Error Locations: The traceback displays the line number and the file where the error occurred. By examining the code at that line and the surrounding context, you can identify potential causes.
+Error Locations: The traceback displays the line number and the file where the error occurred. By examining the code at that line and the surrounding context, you can identify potential causes.
 
-    Error Descriptions: The error message often provides additional details about the specific error. It might highlight a specific line of code or provide hints about the underlying issue. Reading and understanding these descriptions can guide you towards finding a solution.
+Error Descriptions: The error message often provides additional details about the specific error. It might highlight a specific line of code or provide hints about the underlying issue. Reading and understanding these descriptions can guide you towards finding a solution.
 
-    Error Handling: Python allows you to handle errors using try-except blocks. By placing potentially problematic code inside a try block and providing an appropriate except block, you can catch and handle errors gracefully. This way, you can display custom error messages, take alternative actions, or log error information for future reference.
+Error Handling: Python allows you to handle errors using try-except blocks. By placing potentially problematic code inside a try block and providing an appropriate except block, you can catch and handle errors gracefully. This way, you can display custom error messages, take alternative actions, or log error information for future reference.
 
-    Common Errors: As a beginner, you might encounter some common errors. Examples include NameError (using an undefined variable), TypeError (incompatible data types), and IndexError (accessing a list element outside its range). Familiarizing yourself with these common errors can help you recognize them and find solutions more quickly.
+Common Errors: As a beginner, you might encounter some common errors. Examples include NameError (using an undefined variable), TypeError (incompatible data types), and IndexError (accessing a list element outside its range). Familiarizing yourself with these common errors can help you recognize them and find solutions more quickly.
 
-    Google and Stack Overflow: When faced with an error, search engines like Google and programming forums like Stack Overflow can be valuable resources. By searching for the error message or a specific symptom, you can often find explanations, solutions, or similar cases that others have encountered.
+Google and Stack Overflow: When faced with an error, search engines like Google and programming forums like Stack Overflow can be valuable resources. By searching for the error message or a specific symptom, you can often find explanations, solutions, or similar cases that others have encountered.
 
 Remember, learning to interpret Python errors is a skill that develops over time. Embrace errors as learning opportunities and use them to understand your code better. Read the error messages carefully, examine the traceback, and consider the context of your code. With practice, you'll become more adept at identifying and resolving errors, making your coding journey smoother.
 
