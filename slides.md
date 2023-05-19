@@ -58,6 +58,8 @@ Control structures in Python are essential tools that allow you to make decision
 
 The most common control structures in Python are **if statements** and **loops**. 
 
+## If-statements
+
 **If statements** let you check conditions and execute different blocks of code depending on whether the condition is true or false. For example, you can write an if statement to check if a number is greater than 10 and perform specific actions accordingly.
 
 ```python
@@ -65,10 +67,12 @@ steps_taken = 8000
 target_steps = 10000
 
 if steps_taken < target_steps:
-	pass
+    pass
 else:
-	pass
+    pass
 ```
+
+## Loops
 
 **Loops** allow you to repeat a block of code multiple times. The two main types of loops in Python are **for loops** and **while loops**. 
 
@@ -76,7 +80,7 @@ else:
 
 ```python
 for i in range(10):
-	print(i)
+    print(i)
 ```
 
 **While loops** continue executing a block of code as long as a condition remains true. They are useful when you want to repeat an action until a specific condition is met. For example, you can use a while loop to keep asking a user for input until they provide a valid response.
@@ -96,7 +100,7 @@ It's important to pay attention to the indentation in Python because it defines 
 
 # Functions and Modules
 
-# Errors
+# Errors (Advanced)
 
 When programming in Python, encountering errors is a normal part of the learning process. Understanding these errors and being able to interpret their output is crucial for debugging and improving your code. Here's some information to help you make sense of Python errors:
 
@@ -115,3 +119,5 @@ When programming in Python, encountering errors is a normal part of the learning
     Google and Stack Overflow: When faced with an error, search engines like Google and programming forums like Stack Overflow can be valuable resources. By searching for the error message or a specific symptom, you can often find explanations, solutions, or similar cases that others have encountered.
 
 Remember, learning to interpret Python errors is a skill that develops over time. Embrace errors as learning opportunities and use them to understand your code better. Read the error messages carefully, examine the traceback, and consider the context of your code. With practice, you'll become more adept at identifying and resolving errors, making your coding journey smoother.
+
+## Investigating an Error (Advanced)
