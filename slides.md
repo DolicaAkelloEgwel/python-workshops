@@ -1,17 +1,24 @@
 # Python for Beginners
 
-Course notes: 
-
 ---
-# Intro
+<style scoped>
+{
+  font-size: 20px
+}
+</style>
 
-What's covered:
+# Overview
+
+## What's covered:
 + Variables
 + Data types
 + Operations
-+ Control structures - loops, if statements
++ Control structures
++ Functions
++ Libraries
++ A bit about debugging...
 
-What's not covered:
+## What's not covered:
 + Installation
 + Testing
 + Version Control
@@ -20,43 +27,27 @@ What's not covered:
 <!-- I understand that you may not be fully committed to using Python in your projects at the moment, and that's perfectly fine. The good news is that you don't need to install anything to get started with Python. If you *do* go ahead with using Python, I can help you with getting set up and moving on to the more advanced things you may want to do with it. -->
 
 ---
-# What is Python?
+# Python Benefits
 
 + popular and beginner-friendly programming language
 + simple and readable syntax, resembles **psuedo-code**
-<!-- In programming, syntax refers to the set of rules and guidelines that define the structure and composition of valid code in a programming language. It determines how statements, expressions, and instructions should be written to create meaningful and executable programs. -->
 + general-purpose, can be used for a variety of applications from web development to data visualitation to generative art
++ rich ecysosytem
++ interactive developments
++ community and resources
++ intergration with other software
 
----
-# Why Use Python for Art?
-
-Python offers several advantages for beginners coming from an Arts background:
-
-+ Easy to learn
+<!-- In programming, syntax refers to the set of rules and guidelines that define the structure and composition of valid code in a programming language. It determines how statements, expressions, and instructions should be written to create meaningful and executable programs. -->
 
 <!-- Python has a simple and intuitive syntax that is easy to grasp, even for those without a programming background. It focuses on readability and provides  a gentle learning curve, allowing beginners to quickly start writing functional code. -->
 
-+ Expressive and versatile
-
-<!-- Python is a versatile language that can be used for a wide range of applications. It has extensive libraries and frameworks for data visualization, image processing, multimedia, and more. This versatility allows artists to explore creative possibilities and express their ideas using code. -->
-
-+ Interactive development
-
 <!-- Python supports interactive development environments like Jupyter Notebook and IPython, which allow for immediate feedback and experimentation. This interactivity is beneficial for artists who want to explore visualizations, generate art, or experiment with algorithms in real-time. -->
-
-+ Rich ecosystem
 
 <!-- Python has a vast ecosystem of libraries and packages that cater to various domains. Artists can leverage libraries like NumPy for numerical computing, Matplotlib for data visualization, Pillow for image manipulation, and Pygame for creating interactive games and multimedia experiences. This broad range of tools empowers artists to bring their creative visions to life. -->
 
-+ Community and resources
-
 <!-- Python has a large and supportive community of developers, including artists and creatives. There are dedicated forums, tutorials, and online communities where beginners can seek help, share their work, and collaborate with others. The availability of resources makes it easier for artists to learn and grow their skills. -->
 
-+ Integration with other software
-
-<!-- Python can be seamlessly integrated with other software tools commonly used in the Arts field, such as graphic design software, video editing tools, and 3D modeling applications. Python's flexibility allows artists to automate tasks, process data, and create custom workflows that bridge different software platforms. -->
-
-+ Job opportunities
+<!-- Python can be seamlessly integrated with other software tools commonly used in the Arts field, such as graphic design software, video editing tools, and 3D modeling applications. Python's flexibility allows artists to automate tasks, process data, and create custom workflows that bridge different software platforms. -->s
 
 <!--  Learning Python opens up a wide range of job opportunities in fields like data visualization, game development, multimedia production, and web development. The ability to combine artistic skills with programming knowledge can be highly valuable in creative industries that require technical expertise. -->
 
@@ -83,13 +74,27 @@ print(message)
 
 You can then use the variable in your code by referencing its name. Variables are useful because they allow you to reuse and update values without having to repeat the actual data.
 
-Variables can hold different types of data, including integers (whole numbers), floating-point numbers (numbers with decimals), strings (text), booleans (True or False), and more. Python is a dynamically typed language, meaning you don't need to explicitly declare the type of a variable. Python will automatically determine the type based on the assigned value.
+Variables can hold different types of data, including integers (whole numbers), floating-point numbers (numbers with decimals), strings (text), booleans (True or False), and more. Python is a dynamically typed language. 
+
+<!-- Python will automatically determine the type based on the assigned value. -->
 
 ---
 # Data Types
 
+| Data Type   | Example Declaration |
+|-------------|---------------------|
+| Integer     | `num = 10`          |
+| Float       | `pi = 3.14`         |
+| String      | `name = "John"`     |
+| Boolean     | `is_true = True`    |
+| List        | `my_list = [1, 2, 3]` |
 
-
+<!-- Not included:
+Tuple
+Dictionary
+Set
+None
+ -->
 ---
 # Operations
 
@@ -101,6 +106,7 @@ y = 3
 summed = x + y  # Adds the values of x and y
 greeting = "Hello, " + "World!"  # Combines two strings
 is_greater = x > y  # Checks if x is greater than y
+is_equal = x == y  # Checks if x and y are equal
 ```
 ---
 # Reassignment
@@ -111,6 +117,8 @@ Variables can also be reassigned to new values during the execution of your prog
 x = 5
 x = x + 1  # The value of x is updated to 6
 ```
+---
+# Variable Naming and Usage
 
 Remember, variable names should be descriptive and follow certain naming conventions. They cannot start with a number or contain spaces or special characters (except underscores).
 
@@ -165,6 +173,9 @@ while name == "":  # Keep looping while the name is empty
 
 print("Hello,", name + "!")  # Print a greeting with the entered name
 ```
+
+<!-- Comment about difference between single equals and double equals. -->
+
 ---
 # Control Structures - Uses
 
@@ -174,6 +185,8 @@ It's important to pay attention to the indentation in Python because it defines 
 
 ---
 # Functions
+---
+# Libraries
 ---
 # Errors (Advanced)
 
@@ -201,10 +214,12 @@ Remember, learning to interpret Python errors is a skill that develops over time
 <!-- Explain None? -->
 <!-- Explain continue/break? -->
 
+---
 # Recap
 
 Review what has been covered up to this point.
 
+---
 # Further Reading
 
 Resources for learning Python and doing stuff with it.
