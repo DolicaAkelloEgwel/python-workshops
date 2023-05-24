@@ -65,19 +65,22 @@ In Python, variables are containers that allow you to store and manipulate data.
 
 To create a variable, you simply choose a name for it and assign a value using the equals sign (=). For example, you can create a variable called "message" and assign it the value "Hello, World!":
 
-```python automatically determine the type based on the assigned value. -->
-
----
-# Data Type
+```python
 message = "Hello, World!"
 print(message)
 ```
+
+Python automatically determine the type based on the assigned value.
+
 ---
 # Variables - Continued
 
 You can then use the variable in your code by referencing its name. Variables are useful because they allow you to reuse and update values without having to repeat the actual data.
 
 Variables can hold different types of data, including integers (whole numbers), floating-point numbers (numbers with decimals), strings (text), booleans (True or False), and more. Python is a dynamically typed language. 
+
+---
+# Data Types
 
 | Data Type   | Example Declaration |
 |-------------|---------------------|
