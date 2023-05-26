@@ -143,7 +143,14 @@ Remember, learning to interpret Python errors is a skill that develops over time
 ---
 # Recap
 
-Review what has been covered up to this point.
++ Variables
++ Data types
++ Operations
++ Functions
++ Control structures
++ Libraries
++ Retrieving data from the web
++ Using libraries to manipulate data
 
 ---
 # Further Reading
