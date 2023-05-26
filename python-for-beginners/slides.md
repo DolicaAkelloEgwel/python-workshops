@@ -148,4 +148,4 @@ Review what has been covered up to this point.
 ---
 # Further Reading
 
-Resources for learning Python and doing stuff with it.
+Free interactive Python course: https://futurecoder.io
