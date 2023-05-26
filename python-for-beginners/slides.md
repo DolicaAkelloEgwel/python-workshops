@@ -111,8 +111,23 @@ is_equal = x == y  # Checks if x and y are equal
 ```
 ---
 # Functions
+
+Functions in Python allow you to encapsulate code into reusable blocks. They are defined using the `def` keyword followed by a name and brackets. 
+
+```python
+def some_function():
+  print("Hello World")
+```
+
+Parameters (or arguments) can be passed into functions, and values can be returned using the `return` statement. Functions promote code modularity, readability, and reusability. They help break down complex tasks into smaller, manageable parts.
+
+<!-- Functions in programming can be metaphorically compared to recipes in a cookbook. Just as a recipe provides instructions for creating a dish, a function offers a set of instructions for accomplishing a specific task. The function name is akin to the recipe title, parameters serve as the ingredients, the function body represents the instructions, and the return value is analogous to the final dish. Functions, like recipes, promote reusability and modularity, allowing code to be organized and executed repeatedly throughout a program. -->
+
 ---
 # Libraries
+
+Libraries in Python are pre-written collections of code that provide additional functionalities to the language. They contain modules, classes, and functions that can be imported into your code to extend its capabilities. Libraries cover a wide range of domains, such as data analysis (NumPy, Pandas), web development (Django, Flask), machine learning (TensorFlow, scikit-learn), and more. By utilizing libraries, developers can save time and effort by leveraging existing solutions and building upon the work of others to enhance their Python applications.
+
 ---
 # Errors (Advanced)
 
