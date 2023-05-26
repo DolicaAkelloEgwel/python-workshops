@@ -32,7 +32,7 @@
 + popular and beginner-friendly programming language
 + simple and readable syntax, resembles **psuedo-code**
 + general-purpose, can be used for a variety of applications from web development to data visualitation to generative art
-+ rich ecysosytem
++ rich ecosystem
 + interactive developments
 + community and resources
 + intergration with other software
@@ -47,7 +47,7 @@
 
 <!-- Python has a large and supportive community of developers, including artists and creatives. There are dedicated forums, tutorials, and online communities where beginners can seek help, share their work, and collaborate with others. The availability of resources makes it easier for artists to learn and grow their skills. -->
 
-<!-- Python can be seamlessly integrated with other software tools commonly used in the Arts field, such as graphic design software, video editing tools, and 3D modeling applications. Python's flexibility allows artists to automate tasks, process data, and create custom workflows that bridge different software platforms. -->s
+<!-- Python can be seamlessly integrated with other software tools commonly used in the Arts field, such as graphic design software, video editing tools, and 3D modeling applications. Python's flexibility allows artists to automate tasks, process data, and create custom workflows that bridge different software platforms. -->
 
 <!--  Learning Python opens up a wide range of job opportunities in fields like data visualization, game development, multimedia production, and web development. The ability to combine artistic skills with programming knowledge can be highly valuable in creative industries that require technical expertise. -->
 
