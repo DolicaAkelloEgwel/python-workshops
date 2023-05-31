@@ -76,7 +76,26 @@ https://tinyurl.com/567ru9un
 ---
 # Variables
 
-In Python, variables are containers that allow you to store and manipulate data. Think of them as labeled boxes that hold different types of information, such as numbers, text, or even complex data structures.
+A Python interpreter can be used like a calculator:
+
+```python
+3 + 2
+# Output: 5
+```
+
+You might have noticed that the previous statement isn't very helpful or interesting by itself. There are times when we want to keep data so we can use it again or make changes later on. That's where **variables** come into play.
+
+<!-- First cell. -->
+
+---
+# Variables
+
+Variables can be thought of as labeled boxes that hold different types of information, such as numbers, text, or even complex data structures.
+
+![](variable-box.png)
+
+---
+# Variables
 
 To create a variable, you simply choose a name for it and assign a value using the equals sign (=). For example, you can create a variable called "message" and assign it the value "Hello, World!":
 
@@ -85,12 +104,9 @@ message = "Hello, World!"
 message
 ```
 
-![bg right](variable-box.png)
-
-<!-- First exercise. -->
-
+<!-- Move to next cell. -->
 ---
-# Variables - Continued
+# Variables
 
 You can then use the variable in your code by referencing its name. Variables are useful because they allow you to reuse and update values without having to repeat the actual data.
 
@@ -115,6 +131,9 @@ Dictionary
 Set
 None
  -->
+
+<!-- Next two cells. -->
+
 ---
 # Operations
 
