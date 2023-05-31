@@ -11,7 +11,7 @@ x = x + 1  # The value of x is updated to 6
 
 Control structures in Python are essential tools that allow you to make decisions and control the flow of your code. They determine which parts of your program are executed based on certain conditions.
 
-The most common control structures in Python are **if statements** and **loops**. 
+The most common control structures in Python are **if statements** and **loops**.
 
 ---
 # If Statements
@@ -31,7 +31,7 @@ else:
 ---
 # Loops
 
-**Loops** allow you to repeat a block of code multiple times. The two main types of loops in Python are **for loops** and **while loops**. 
+**Loops** allow you to repeat a block of code multiple times. The two main types of loops in Python are **for loops** and **while loops**.
 
 ---
 # For Loops

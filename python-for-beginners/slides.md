@@ -13,8 +13,9 @@
 + Variables
 + Data types
 + Operations
-+ Control structures
 + Functions
++ Loops
++ If statements
 + Libraries
 + A bit about debugging...
 
@@ -31,11 +32,11 @@
 
 + popular and beginner-friendly programming language
 + simple and readable syntax, resembles **psuedo-code**
-+ general-purpose, can be used for a variety of applications from web development to data visualitation to generative art
++ general-purpose, can be used for a variety of applications from web development to data visualisation to generative art
 + rich ecosystem
 + interactive developments
 + community and resources
-+ intergration with other software
++ integration with other software
 
 <!-- In programming, syntax refers to the set of rules and guidelines that define the structure and composition of valid code in a programming language. It determines how statements, expressions, and instructions should be written to create meaningful and executable programs. -->
 
@@ -77,7 +78,7 @@ Python automatically determine the type based on the assigned value.
 
 You can then use the variable in your code by referencing its name. Variables are useful because they allow you to reuse and update values without having to repeat the actual data.
 
-Variables can hold different types of data, including integers (whole numbers), floating-point numbers (numbers with decimals), strings (text), booleans (True or False), and more. Python is a dynamically typed language. 
+Variables can hold different types of data, including integers (whole numbers), floating-point numbers (numbers with decimals), strings (text), booleans (True or False), and more. Python is a dynamically typed language.
 
 ---
 # Data Types
@@ -112,21 +113,39 @@ is_equal = x == y  # Checks if x and y are equal
 ---
 # Functions
 
-Functions in Python allow you to encapsulate code into reusable blocks. They are defined using the `def` keyword followed by a name and brackets. 
+Functions in Python allow you to encapsulate code into reusable blocks. They are defined using the `def` keyword followed by a name and brackets.
 
 ```python
-def some_function():
-  print("Hello World")
+def add_numbers(a, b):
+    return a + b
+
+result = add_numbers(3, 5)
 ```
 
 Parameters (or arguments) can be passed into functions, and values can be returned using the `return` statement. Functions promote code modularity, readability, and reusability. They help break down complex tasks into smaller, manageable parts.
 
 <!-- Functions in programming can be metaphorically compared to recipes in a cookbook. Just as a recipe provides instructions for creating a dish, a function offers a set of instructions for accomplishing a specific task. The function name is akin to the recipe title, parameters serve as the ingredients, the function body represents the instructions, and the return value is analogous to the final dish. Functions, like recipes, promote reusability and modularity, allowing code to be organized and executed repeatedly throughout a program. -->
+---
+# If Statements
+
+If statements allow us to selectively execute a block of code based on a condition. If the condition is true, the code block is executed; otherwise, it is skipped.
+
+```python
+x = 10
+
+if x > 5:
+    print("x is greater than 5")
+else:
+    print("x is not greater than 5")
+
+```
 
 ---
 # Libraries
 
-Libraries in Python are pre-written collections of code that provide additional functionalities to the language. They contain modules, classes, and functions that can be imported into your code to extend its capabilities. Libraries cover a wide range of domains, such as data analysis (NumPy, Pandas), web development (Django, Flask), machine learning (TensorFlow, scikit-learn), and more. By utilizing libraries, developers can save time and effort by leveraging existing solutions and building upon the work of others to enhance their Python applications.
+Libraries in Python are pre-written collections of code that provide additional functionalities to the language. They contain modules, classes, and functions that can be imported into your code to extend its capabilities.
+
+<!-- Libraries cover a wide range of domains, such as data analysis (NumPy, Pandas), web development (Django, Flask), machine learning (TensorFlow, scikit-learn), and more. By utilizing libraries, developers can save time and effort by leveraging existing solutions and building upon the work of others to enhance their Python applications. -->
 
 ---
 # Errors (Advanced)
@@ -168,6 +187,6 @@ Remember, learning to interpret Python errors is a skill that develops over time
 + Using libraries to manipulate data
 
 ---
-# Further Reading
+# Learning Resources
 
 Free interactive Python course: https://futurecoder.io
