@@ -57,8 +57,22 @@
 ---
 # Examples
 
-Examples of cool ways Python has been used.
+Examples of cool ways Python has been used in art.
 
+---
+# Setup
+
+https://tinyurl.com/567ru9un
+
+<!-- The easiest way to learn programming is by actually doing it. So, in today's session, we'll work on some exercises to help you wrap your mind around some of the core concepts of the Python language. At the end, I'll show you how to create a program that can download images from the web and add interesting glitch effects to images. -->
+
+<!-- To facilitate our learning experience, we'll be utilizing a Jupyter Notebook for today's exercises. This choice offers the advantage of quick setup and simplicity. Nevertheless, it's important to note that Jupyter may not be the most suitable option for complex projects. Therefore, if you utilize Python in your professional endeavors, it's worth considering this aspect. -->
+
+<!-- Jupyter shortcomings:
+- Difficult to use with version control
+- Non-linear workflow
+- IDE intergration
+ -->
 ---
 # Variables
 
@@ -68,10 +82,12 @@ To create a variable, you simply choose a name for it and assign a value using t
 
 ```python
 message = "Hello, World!"
-print(message)
+message
 ```
 
-Python automatically determine the type based on the assigned value.
+![bg right](variable-box.png)
+
+<!-- First exercise. -->
 
 ---
 # Variables - Continued
@@ -90,6 +106,8 @@ Variables can hold different types of data, including integers (whole numbers), 
 | String      | `name = "John"`     |
 | Boolean     | `is_true = True`    |
 | List        | `my_list = [1, 2, 3]` |
+
+Python automatically determine the type based on the assigned value.
 
 <!-- Not included:
 Tuple
