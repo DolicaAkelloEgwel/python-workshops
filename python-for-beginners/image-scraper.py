@@ -96,6 +96,6 @@ sort_image = pixelsort(
     glitched_image, sorting_function="intensity", interval_function="edges"
 )
 
-# SHow the result
+# Show the result
 imgplot = plt.imshow(sort_image)
 plt.show()
