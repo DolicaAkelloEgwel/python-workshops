@@ -19,10 +19,10 @@ def photo_downloader(theme):
     url = "https://unsplash.com/s/photos/" + theme
 
     # Create a request for the URL
-    request = requests.get(url, allow_redirects=True)
+    response = requests.get(url, allow_redirects=True)
 
     # Send the request text to BeautifulSoup
-    data = BeautifulSoup(request.text, "html.parser")
+    data = BeautifulSoup(response.text, "html.parser")
 
     # Get a list of the images found at that URL
     all_found_images = data.find_all("figure", itemprop="image")
@@ -53,9 +53,9 @@ def photo_downloader(theme):
             img_name = f"{theme}-{count:02d}.jpg"
 
             # Use Python's built-in open method to create a file
-            with open(img_name, "wb") as photo:
+            with open(img_name, "wb") as photo_file:
                 # Write the data in our photo_bytes variable to the file
-                photo.write(photo_bytes.content)
+                photo_file.write(photo_bytes.content)
                 # Increase the counter
                 count += 1
                 # Print to the console that an image has been saved successfully
@@ -74,7 +74,7 @@ print(saved_image_list)
 # Choose a random image just to make things interesting then load it
 random_image_name = random.choice(saved_image_list)
 random_image = mpimg.imread(random_image_name)
-imgplot = plt.imshow(random_image)
+plt.imshow(random_image)
 
 # Show information about the image shape
 print(random_image.shape)
