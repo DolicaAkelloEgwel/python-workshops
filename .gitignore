@@ -1,8 +1,7 @@
-slides.html
-python-for-beginners/python-for-beginners.ipynb.txt
-.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/
 .idea/modules.xml
 .idea/python-slides.iml
 .idea/vcs.xml
-python-for-beginners/pictures
-python-for-beginners/.ipynb_checkpoints
+python-for-beginners/.ipynb_checkpoints/
+python-for-beginners/file
+scrapper-pictures/
