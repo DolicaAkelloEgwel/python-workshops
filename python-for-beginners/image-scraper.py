@@ -11,7 +11,7 @@ from glitch_this import ImageGlitcher
 from PIL import Image
 from pixelsort import pixelsort
 
-image_saving_path = "pictures"
+image_saving_path = "scrapper-pictures"
 
 
 def photo_downloader(theme):
