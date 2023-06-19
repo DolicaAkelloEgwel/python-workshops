@@ -4,4 +4,6 @@
 .idea/vcs.xml
 python-for-beginners/.ipynb_checkpoints/
 python-for-beginners/file
-scrapper-pictures/
+*/scrapper-pictures/*
+python-for-beginners/download.png
+*.db
