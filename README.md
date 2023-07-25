@@ -1,6 +1,6 @@
-# Python for Beginners Workshop
+# Python Workshops
 
-## Description
+## Python for Beginners
 
 This workshop is designed for individuals who have no previous programming experience. It will serve as a basic introduction to the Python programming language, covering essential concepts such as variables, assignment, operators, loops, libraries, and functions.
 
