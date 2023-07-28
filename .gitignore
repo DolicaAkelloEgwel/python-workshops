@@ -10,3 +10,7 @@ python-for-beginners/download.png
 
 python-for-beginners/glitched-image.jpg
 python-for-beginners/scraper-pictures
+
+.vscode/settings.json
+pytorch-practice/__pycache__/helpers.cpython-311.pyc
+pytorch-practice/mnist_train.csv
