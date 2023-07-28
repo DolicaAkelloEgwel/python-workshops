@@ -27,3 +27,13 @@ class MnistDataset(Dataset):
         pass
 
     pass
+
+
+def generate_random_image(size):
+    random_data = torch.rand(size)
+    return random_data
+
+
+def generate_random_seed(size):
+    random_data = torch.randn(size)
+    return random_data
